@@ -13,6 +13,7 @@
 		6A9873DD23FE65190044C941 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9873DB23FE65190044C941 /* Main.storyboard */; };
 		6A9873DF23FE651C0044C941 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A9873DE23FE651C0044C941 /* Assets.xcassets */; };
 		6A9873E223FE651C0044C941 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A9873E023FE651C0044C941 /* LaunchScreen.storyboard */; };
+		6A9873ED240263E40044C941 /* minutesOfWisdom.json in Resources */ = {isa = PBXBuildFile; fileRef = 6A9873EC240263E40044C941 /* minutesOfWisdom.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A9873DE23FE651C0044C941 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A9873E123FE651C0044C941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A9873E323FE651C0044C941 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A9873EC240263E40044C941 /* minutesOfWisdom.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = minutesOfWisdom.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		6A9873D423FE65190044C941 /* renato */ = {
 			isa = PBXGroup;
 			children = (
+				6A9873E923FF66330044C941 /* service */,
 				6A9873D523FE65190044C941 /* AppDelegate.swift */,
 				6A9873D723FE65190044C941 /* SceneDelegate.swift */,
 				6A9873D923FE65190044C941 /* ViewController.swift */,
@@ -65,6 +68,14 @@
 				6A9873E323FE651C0044C941 /* Info.plist */,
 			);
 			path = renato;
+			sourceTree = "<group>";
+		};
+		6A9873E923FF66330044C941 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				6A9873EC240263E40044C941 /* minutesOfWisdom.json */,
+			);
+			path = service;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A9873E223FE651C0044C941 /* LaunchScreen.storyboard in Resources */,
+				6A9873ED240263E40044C941 /* minutesOfWisdom.json in Resources */,
 				6A9873DF23FE651C0044C941 /* Assets.xcassets in Resources */,
 				6A9873DD23FE65190044C941 /* Main.storyboard in Resources */,
 			);
