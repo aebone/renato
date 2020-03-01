@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var wisdom: UITextView!
-    var sentences: [String] = [];
+    var sentences: [String] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
